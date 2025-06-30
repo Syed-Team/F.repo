@@ -8,17 +8,12 @@
 		<version>3.5.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-<<<<<<< HEAD
+
 	<groupId>com.myapi</groupId>
 	<artifactId>student-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>student-api</name>
-=======
-	<groupId>com.example</groupId>
-	<artifactId>sb</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>sb</name>
->>>>>>> 7280a7a13cb7ce072cb46cca8c996fbccd902883
+
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -49,13 +44,16 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <mainClass>com.myapi.student_api.StudentApiApplication</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
