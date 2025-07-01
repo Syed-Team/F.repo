@@ -8,40 +8,40 @@ public class HelloController {
     @GetMapping("/")
     public String hello() {
         return "\n" +
-		"Assalamu alaikum bhaijaan, I am  from Spring!\n " +
-			"Sing Out Loud Children’s Songs\n" +
+		"Assalamu alaikum bhaijaan, I am  from Spring!<br> " +
+			"Sing Out Loud Children’s Songs<br>" +
 		"LYRICS:<br>" +
 			"TWINKLE, TWINKLE, LITTLE STAR<br>" +
 			"Twinkle, twinkle, little star,<br>" +
 			 "how I wonder what you are.<br>" +
-			"\n" +
-			 "Up above the world so high,\n" +
-			"like a diamond in the sky. \n" +
-			"Twinkle, twinkle, little star,\n" + 
-			"\n" +
-			"how I wonder what you are.\n" +
-			 "When the blazing sun is set,\n" + 
-			"and the grass with dew is wet.\n " +
-			"\n" +
-			"Then you show your little light,\n " +
-			"twinkle, twinkle all the night. \n" +
-			"Twinkle, twinkle little star, \n" +
-			"\n" +
-			"how I wonder what you are.\n" +
-			"Then the traveler in the dark\n" + 
-			"thanks you for your tiny spark. \n" +
-			"\n" +
-			"How could he see where to\n" +
-			"go if you did not twinkle so? \n" +
-			"Twinkle, twinkle little star, \n" +
-			"\n" +
-			"how I wonder what you are.\n" +
-			"As your bright and tiny spark lights \n" +
-			"the traveler in the dark, \n" +
-			" \n"  +
-			"though I know not what you are, \n" +
-			"twinkle, twinkle, little star. \n" +
-			"Twinkle, twinkle, little star, \n" +
-			"how I wonder what you are.\n";
+			"<br>" +
+			 "Up above the world so high,<br>" +
+			"like a diamond in the sky. <br>" +
+			"Twinkle, twinkle, little star,<br>" + 
+			"<br>" +
+			"how I wonder what you are.<br>" +
+			 "When the blazing sun is set,<br>" + 
+			"and the grass with dew is wet.<br> " +
+			"<br>" +
+			"Then you show your little light,<br> " +
+			"twinkle, twinkle all the night. <br>" +
+			"Twinkle, twinkle little star, <br>" +
+			"<br>" +
+			"how I wonder what you are.<br>" +
+			"Then the traveler in the dark<br>" + 
+			"thanks you for your tiny spark. <br>" +
+			"<br>" +
+			"How could he see where to<br>" +
+			"go if you did not twinkle so? <br>" +
+			"Twinkle, twinkle little star, <br>" +
+			"<br>" +
+			"how I wonder what you are.<br>" +
+			"As your bright and tiny spark lights <br>" +
+			"the traveler in the dark, <br>" +
+			" <br>"  +
+			"though I know not what you are, <br>" +
+			"twinkle, twinkle, little star. <br>" +
+			"Twinkle, twinkle, little star, <br>" +
+			"how I wonder what you are.<br>";
     }
 }
